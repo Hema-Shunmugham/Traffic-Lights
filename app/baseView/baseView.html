@@ -1,0 +1,11 @@
+<div class="trafficSignal">
+    <p><button ng-click="simulateTraffic()">Click To Simulate Traffic Lights</button></p>
+    <div ng-repeat="trafficLight in trafficDetails track by $index">
+        <div ng-repeat="details in trafficLight track by $index">
+            {{details.text}}
+        </div>
+        <p></p>
+</div>
+</div>
+
+
